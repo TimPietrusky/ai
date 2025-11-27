@@ -5,7 +5,7 @@ create a git commit following conventional commits with angular style, everythin
 ## MANDATORY PROCESS
 
 1. **Check ALL changed files**: Run `git status --short` to see all modified, added, and deleted files
-2. **Review actual changes**: Run `git diff --stat` to see file-level changes, then `git diff` for detailed changes
+2. **Review actual changes**: Run `git diff --stat` to see file-level changes, then `git --no-pager diff` for detailed changes
 3. **Understand the full scope**: Read through the diffs to understand what was actually changed, not just what you remember
 4. **Identify the primary purpose**: Determine the main goal/feature/fix that drove these changes
 5. **Choose correct commit type**: `fix`, `feat`, `docs`, `style`, `refactor`, `perf`, `test`, `chore`, `build`, `ci`
