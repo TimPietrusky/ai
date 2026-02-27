@@ -1,0 +1,1 @@
+This is a living document. When you encounter a non-obvious gotcha, error-prone pattern, or tricky decision while working in this codebase, add it here. Don't add anything an agent can figure out by reading the code.
